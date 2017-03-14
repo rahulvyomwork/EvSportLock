@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{9B13AFA7-1215-4205-8D02-2FDEA8622A8B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EvSportLock/VIews/LoginMenuController.xaml.cs">
+    <Files>
+      <File FileName="EvSportLock/VIews/LoginMenuController.xaml.cs" Line="101" Column="5" />
+      <File FileName="EvSportLock/VIews/LoginMenuPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="EvSportLock/App.xaml.cs" Line="13" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="20" Column="1" />
+      <File FileName="EvSportLock/VIewModels/LoginMenuVIewModel.cs" Line="32" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.EvSportLock.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.84D0D89B-13DF-4E9A-B756-1A2737FE23D8" />
+</Properties>

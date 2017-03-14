@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="Black" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EvSportLock.LoginMenuPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness" iOS="10,22,0,0" Android="10,20"/>
+  </ContentPage.Padding>
+  <StackLayout>
+    <AbsoluteLayout HeightRequest="30" Padding="10,10">
+
+      <Image Source="icon.png"  Aspect="AspectFit" HeightRequest="20" WidthRequest="20"/>
+      <Button x:Name="closeButton" BackgroundColor="Transparent" BorderColor="Transparent"  AbsoluteLayout.LayoutBounds="0,0,40,40" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+      <Image Source="icon.png" AbsoluteLayout.LayoutBounds="0.5,0.5, 100,30" Aspect="AspectFit" AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
+    <ListView BackgroundColor="Transparent" ItemsSource="{Binding LoginMenuPagesList}" x:Name="menuListView" SeparatorColor="Transparent">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <AbsoluteLayout BackgroundColor="Transparent" Padding="10,0" HeightRequest="50">
+              <Image BackgroundColor="Transparent" Source="{Binding pageIcon}" HeightRequest="25" AbsoluteLayout.LayoutBounds="0,0.5,25,25" AbsoluteLayout.LayoutFlags="PositionProportional" />
+              <Label BackgroundColor="Transparent" FontFamily="Vinci Rounded" Font="VinciRounded-Light" TextColor="White"  VerticalTextAlignment="Center" FontSize="12" Text="{Binding pageName}" AbsoluteLayout.LayoutBounds="40,0.5,1,1" AbsoluteLayout.LayoutFlags="YProportional, SizeProportional" />
+            </AbsoluteLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </StackLayout>
+</ContentPage>
